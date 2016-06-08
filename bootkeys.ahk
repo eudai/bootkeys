@@ -14,7 +14,7 @@ return
 
 #q::
 Send !{F4}
-Return
+return
 
 #s::
 Send ^s
