@@ -13,19 +13,22 @@ send {WheelUp}
 return
 
 #q::
-Send !{F4}
+send !{F4}
 return
 
 #s::
-Send ^s
+send ^s
 return
+
+#r::
+send {f5}
 
 #a::
 send ^a
 return
 
 #f::
-Send ^f
+send ^f
 return
 
 #c::
