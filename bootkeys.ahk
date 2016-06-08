@@ -22,7 +22,7 @@ return
 
 #r::
 send {f5}
-returnu
+return
 
 !r::
 send #r
