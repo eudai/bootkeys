@@ -22,6 +22,10 @@ return
 
 #r::
 send {f5}
+returnu
+
+!r::
+send #r
 return
 
 #a::
@@ -124,10 +128,6 @@ return
 send #{Down}
 return
 
-#+r::
-Reload
-return
-
 #/::
 send ^/
 return
@@ -138,4 +138,8 @@ return
 
 #+{::
 send ^+{tab}
+return
+
+#+r::
+reload
 return
