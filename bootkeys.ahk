@@ -22,6 +22,7 @@ return
 
 #r::
 send {f5}
+return
 
 #a::
 send ^a
